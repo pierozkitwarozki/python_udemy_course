@@ -8,7 +8,7 @@ def request_api_data(query_char):
     res = requests.get(url)
     if res.status_code != 200:  # status_code = 200 when user passes 5 str symbols as an argument
         raise RuntimeError(f'Error fetching: {res.status_code}, check the api and try again.')
-        # This error will be raised if user gives str that is not 5 symbols long
+        # This error will be raised if user gives str that not 5 symbols long
     return res
 
 
