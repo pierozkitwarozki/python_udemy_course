@@ -6,7 +6,7 @@ client = Client(account_sid, auth_token)
 
 message = client.messages.create(
     from_='+16626440158',
-    body='This fucking works!!!',
+    body='Boro to gej',
     to='+48697584302'
 )
 
